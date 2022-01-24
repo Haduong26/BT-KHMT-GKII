@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Krub:wght@200&family=Lora&family=Nunito+Sans:wght@200;600&family=Source+Serif+4:wght@200&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@jaames/iro@5"></script>
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark" class= "p-3 mb-2 text-dark">
+        <a class="navbar-brand" href="index.html">Color Wheel</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="index.html"><span class="sr-only"></span>Complementary</a>
+            <a class="nav-item nav-link active" href="monochromatic.html">Monochromatic</a>
+            <a class="nav-item nav-link" href="triadic.html">Triadic</a>
+            <a class="nav-item nav-link" href="tetradic.html">Tetradic</a>
+          </div>
+        </div>
+      </nav>
+      <div style="display: flex; margin-left:15%; margin-top: 10%;">
+        <div>
+          <div id="color-indicator" class="color-indicator"></div>
+          <div style="display: flex; justify-content: center;">
+            <p id="color-number" style="color: aliceblue;"></p>
+          </div>
+        </div>
+        <div>
+            <div id="color-indicator2" class="color-indicator2"></div>
+            <div style="display: flex; justify-content: center;">
+              <p id="color-number2" style="color: aliceblue;"></p>
+            </div>
+          </div>  
+          <div>
+            <div id="color-indicator3" class="color-indicator3"></div>
+            <div style="display: flex; justify-content: center;">
+              <p id="color-number3" style="color: aliceblue;"></p>
+            </div>
+          </div>       
+        <div id="color-picker"></div>
+    </div>  
+    <p style="color: aliceblue; margin-top: 10%; font-size: 4rem !important; font-weight: 700;">Monochromatic / Đơn sắc</p>
+    <div style="    margin-top: 3%; font-size: 5rem;   ">
+      <img style="width: 60%;" src="https://static-cse.canva.com/_next/static/assets/monochromatic-colors.1200x690.c7f66f1fcd6a6993b518384ac67996cf.png" alt="">
+    </div>
+    <p style="color: aliceblue; margin-top: 5%;">Three shades, tones and tints of one base color. Provides a subtle and conservative color combination. This is a versatile color combination that is easy to apply to design projects for a harmonious look.</p>
+
+    <p style="color: aliceblue; margin-top: 3%;">Ba sắc thái, tông màu và sắc thái của một màu cơ bản. Cung cấp một sự kết hợp màu sắc tinh tế và an toàn. Đây là một sự kết hợp màu sắc linh hoạt dễ dàng áp dụng cho các dự án thiết kế để có một cái nhìn hài hòa.</p> 
+        
+</body>
+<script src="monochromatic.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+</html>

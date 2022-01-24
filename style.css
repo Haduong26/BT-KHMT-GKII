@@ -1,0 +1,106 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    -webkit-text-size-adjust:100%;
+}
+
+body{
+    background-color: #242526;
+    min-height: 90vh;
+    align-items: center;
+    padding:0;
+    height: 100%;
+    max-width: 1200px;
+    margin: 10px auto !important;
+}
+
+.navbar-brand{
+    font-size: 6rem !important;
+    letter-spacing: 1rem;
+    font-family: 'Satisfy', cursive;
+
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding-right: 2rem !important;
+
+}
+.navbar{
+    margin-bottom: 3rem;
+    margin-top: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end !important;
+}
+
+.navbar-nav{
+    font-family: 'Krub', sans-serif;
+    padding-left: 2rem !important;
+    font-size: 3rem;
+}
+
+.navbar-toggler{
+  font-size: 2.5rem !important;
+  margin-right: 1rem;
+  font-family: 'Krub', sans-serif;
+}
+
+p{
+    font-family: 'Krub', sans-serif;
+    font-size: 2.5rem;
+    line-height: 5rem;
+}
+
+.color-picker {
+    position: relative;
+}
+
+.color-indicator{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+
+.color-indicator2{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+.color-indicator3{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+.color-indicator4{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-left: 2rem;
+}
+
+#color-picker{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 40px;
+}
