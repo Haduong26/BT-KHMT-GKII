@@ -13,7 +13,7 @@ const colorPicker = new iro.ColorPicker("#color-picker", {
 
 colorPicker.on('color:change', function(color){
     colorIndicator.style.backgroundColor = color.hexString;
-    colorNumber.innerHTML = color.hexString;
+    colorNumber.innerHTML = `Chosen color: ${color.hexString}`;
     colorNumber2.innerHTML = getTetraidc(color.hexString);
     colorNumber3.innerHTML = getTetraidc2(color.hexString);
     colorNumber4.innerHTML = getTetraidc3(color.hexString);

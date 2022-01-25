@@ -11,7 +11,7 @@ const colorPicker = new iro.ColorPicker("#color-picker", {
 
 colorPicker.on('color:change', function(color){
     colorIndicator.style.backgroundColor = color.hexString;
-    colorNumber.innerHTML = color.hexString;
+    colorNumber.innerHTML = `Chosen color: ${color.hexString}`;
     colorNumber2.innerHTML = getTriadic1(color.hexString);
     colorNumber3.innerHTML = getTriadic2(color.hexString);
     colorIndicator2.style.backgroundColor = getTriadic1(color.hexString)

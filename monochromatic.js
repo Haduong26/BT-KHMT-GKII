@@ -12,7 +12,7 @@ const colorPicker = new iro.ColorPicker("#color-picker", {
 
 colorPicker.on('color:change', function(color){
     colorIndicator.style.backgroundColor = color.hexString;
-    colorNumber.innerHTML = color.hexString;
+    colorNumber.innerHTML = `Chosen color: ${color.hexString}`;
     colorNumber2.innerHTML = increase_brightness(color.hexString, 40);
     colorNumber3.innerHTML = increase_brightness(color.hexString, 70);
     colorIndicator2.style.backgroundColor = increase_brightness(color.hexString, 40);
